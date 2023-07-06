@@ -1,0 +1,102 @@
+.media-admin.media-body{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.media-admin .az-msg-wrapper{
+    padding: 10px 15px;
+    background-color: #cdd4e0;
+    font-size: 13px;
+    margin-bottom: 5px;
+    border-radius: 8px;
+    display: inline-block;
+    color: #2b2b2b;
+}
+.media-user.media-body{
+    margin-right: 20px;
+    align-items: flex-end;
+}
+.media-user .az-msg-wrapper{
+    padding: 10px 15px;
+    background-color: #353556;
+    font-size: 13px;
+    margin-bottom: 5px;
+    border-radius: 8px;
+    display: inline-block;
+    float: right;
+    color: #fff;
+}
+.az-chat-footer {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    height: 45px;
+    padding: 0 20px;
+    border-top: 1px solid #cdd4e0;
+    background-color: #fff;
+    position: absolute;
+    bottom:7px;
+    left: 0;
+    right: 0;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius: 10px;
+}
+.az-msg-send {
+    font-size: 20px;
+    color: #3366ff;
+}
+.form-control::placeholder {
+    color: #7987a1;
+    opacity: 1;
+}
+.az-chat-footer .form-control {
+    flex: 1;
+    margin: 0 10px;
+    padding-left: 0;
+    padding-right: 0;
+    border-width: 0;
+}
+.fa-play-circle,.fa-question-circle{
+    left: -10px;
+    position: absolute;
+    text-align: center;
+    width:1rem;
+    line-height: inherit;
+}
+
+
+#chatDiv::-webkit-scrollbar {
+    width: 4px;
+}
+
+/* Track */
+#chatDiv::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+#chatDiv::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+#chatDiv::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+.thinner-card-body .curriculum-heads{
+    font-weight: 400!important;
+}
+.thinner-card-body .fa-comment-dots{
+    position: absolute;
+    top: -7px;
+    right: 0;
+    font-size: 20px;
+    color: #353556;
+    opacity: 0.9;
+}
+#questionAccordian .card-header h5,
+#htmlDiv .card-header h2{
+    color: #353556;
+    margin-bottom: 0;
+}

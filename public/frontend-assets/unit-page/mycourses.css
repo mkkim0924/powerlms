@@ -1,0 +1,115 @@
+/*global css*/
+a{
+    text-decoration: none;
+}
+.box-shadow-3 {
+    box-shadow: 0px 0px 3px #0000001c !important;
+}
+.radius-10 {
+    border-radius: 10px !important;
+}
+.main-tabs .nav-link.btn-outline-rose,.btn-start,.btn-tra-grey{
+    border-radius: 4px;
+    background-color: transparent;
+    border: 2px solid var(--pl-brand) !important;
+    font-weight: 500;
+    color:var(--pl-brand)!important;
+    border-radius: 25px;
+}
+.main-tabs .nav-link.btn-outline-rose:hover,.main-tabs .nav-link.active,.btn-start:hover{
+    color: var(--pl-white) !important;
+    background-color: var(--pl-brand)!important;
+    border: 2px solid var(--pl-brand)!important;
+    transition: all 450ms ease-in-out;
+}
+.cbox-1-txt{
+    padding:18px!important;
+}
+form-control:focus{
+    box-shadow: none;
+}
+.btn:focus{
+    box-shadow: none;
+}
+section.user-dashboard-area {
+    padding: 40px 0;
+}
+.box-shadow-5 {
+    box-shadow: 0px 1px 5px #0000001c !important;
+}
+
+/*global css*/
+
+.courses-grid .progress-wrapper {
+    width: 101%;
+    display: inline-block;
+    float: left;
+    height: 7px;
+    background-color: #c1c1c1;
+    position: relative;
+    margin-right: 30px;
+    top: 0px!important;
+}
+.courses-grid .progress-bar {
+    background-color: #3785D7;
+    height: 7px;
+}
+.progress-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    color: var(--pl-white);
+    text-align: center;
+    white-space: nowrap;
+    background-color: #0d6efd;
+    transition: width .6s ease;
+}
+
+.cbox-1-txt h5{
+    min-height: 68px;
+}
+.share-text{
+    font-size: 12px;
+    font-weight: 500;
+}
+.share-text:hover{
+   color: inherit;
+}
+/*modal css*/
+#formInputDiv .form-control:focus{
+    box-shadow: none;
+}
+#exampleModalone .btn-close:focus{
+    box-shadow: none;
+}
+
+
+.trend-badge-2 {
+    top: -18px;
+    left: -50px;
+    color: var(--pl-white);
+    font-size: 12px;
+    font-weight: 700;
+    position: absolute;
+    padding: 22px 35px 3px;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    /*background-color: #ff5a00;*/
+    background-color: orange;
+    z-index: 3;
+    position: absolute;
+}
+.trend-badge-2 span {
+    display: block;
+}
+
+@media only screen and (max-width:768px) {
+    .cbox-1-txt h5{
+        font-size: 1rem;
+        min-height: 50px;
+    }
+    .course-tags span{
+        font-size: .8rem;
+    }
+}

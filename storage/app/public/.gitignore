@@ -1,0 +1,12 @@
+*
+!logos/
+!bundle/
+!category/
+!course/
+!banner/
+!users/
+!blog/
+!widgets/
+!sponsor/
+!webinar/
+!.gitignore

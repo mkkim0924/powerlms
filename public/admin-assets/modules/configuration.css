@@ -1,0 +1,106 @@
+.layout-card{
+    position: relative;
+    height:200px;
+    width: calc(95% + 17px);
+    overflow-y: scroll;
+    border: 15px solid #000;
+    border-radius: 12px;
+}
+.layout-card.clicked{
+    box-shadow: rgba(50, 205, 50, 0.4) 0px 0px 0px 5px, rgba(0, 128, 0, 0.65) 0px 4px 6px -1px, rgba(50, 205, 50, 0.08) 0px 1px 0px inset;
+    border-radius: 12px;
+}
+.layout-card::-webkit-scrollbar {
+    width: 7px;
+}
+
+/* Track */
+.layout-card::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+.layout-card::-webkit-scrollbar-thumb {
+    background: #f158d0;
+}
+
+/* Handle on hover */
+.layout-card::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+
+
+
+@-moz-keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        -moz-transform: translateY(0);
+        transform: translateY(0);
+    }
+    40% {
+        -moz-transform: translateY(-30px);
+        transform: translateY(-30px);
+    }
+    60% {
+        -moz-transform: translateY(-15px);
+        transform: translateY(-15px);
+    }
+}
+@-webkit-keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    40% {
+        -webkit-transform: translateY(-30px);
+        transform: translateY(-30px);
+    }
+    60% {
+        -webkit-transform: translateY(-15px);
+        transform: translateY(-15px);
+    }
+}
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    40% {
+        -moz-transform: translateY(-30px);
+        -ms-transform: translateY(-30px);
+        -webkit-transform: translateY(-30px);
+        transform: translateY(-30px);
+    }
+    60% {
+        -moz-transform: translateY(-15px);
+        -ms-transform: translateY(-15px);
+        -webkit-transform: translateY(-15px);
+        transform: translateY(-15px);
+    }
+}
+
+.layout-card i {
+    display: block;
+    color: #bbb;
+
+}
+.layout-card .arrow {
+    position: absolute;
+    bottom: 2px;
+    left: 50%;
+    margin-left: -20px;
+    width: 20px;
+    height: 40px; /*change with size of arrow to make sit on bottom */
+    /*   background-image: url(); */
+    /*   background-size: contain; */
+}
+
+.layout-card .bounce {
+    -moz-animation: bounce 2s infinite;
+    -webkit-animation: bounce 2s infinite;
+    animation: bounce 2s infinite;
+}
+
+

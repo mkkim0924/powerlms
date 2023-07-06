@@ -1,0 +1,34 @@
+#course-details .course-rating span{
+    font-size: .9rem;
+}
+.course-data-price h4 span{
+    font-weight: 700;
+}
+.old-price{
+    opacity: .9;
+}
+@media screen and (max-width: 767px){
+    #course-details .col-lg-4{
+        order: 1;
+    }
+    #course-details .col-lg-8{
+        order: 2;
+    }
+    .wide-40{
+        padding: 20px 5px  ;
+    }
+    .breadcrumb{
+        padding: 10px 1px 10px;
+    }
+}
+@media screen and (max-width: 1024px){
+    #course-details .col-lg-4{
+        order: 1;
+    }
+    #course-details .col-lg-8{
+        order: 2;
+    }
+    .wide-40{
+        padding: 20px 0px   ;
+    }
+}

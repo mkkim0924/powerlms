@@ -1,0 +1,42 @@
+
+*{
+    font-family: var(--bs-font-sans-serif);
+}
+.fw-500{
+    font-weight: 500;
+}
+a{
+    text-decoration: none;
+}
+#footer-2 a{
+    color: #333;
+}
+.btn-rose{
+    background-color: var(--pl-brand);
+}
+#invoice-step{
+     background-color: #ECEFF4;
+}
+#invoice-step h4{
+    font-family: var(--bs-font-sans-serif);
+}
+#invoice-step .col-lg-6{
+    width: 50%;
+}
+.invoice{
+   padding: 20px 0px;
+}
+
+@media only screen and (max-width: 768px) {
+#invoice-step .col-lg-6{
+    width: 100%;
+}
+    table {
+        display: block;
+        max-width: -moz-fit-content;
+        max-width: fit-content;
+        margin: 0 auto;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+}

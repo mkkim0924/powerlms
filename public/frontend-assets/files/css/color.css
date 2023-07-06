@@ -1,0 +1,18 @@
+
+/*for text color in theme*/
+:root{
+    --pl-brand:#227AFF;
+    --pl-grey:#888888;
+    --pl-black:#283034;
+    --pl-darkblack:#333333;
+    --pl-white:#ffffff;
+    --pl-lightgrey:#212529;
+    --pl-yellow:#ffb605;
+    --pl-bg-grey:#666666;
+}
+.brand {
+    color: var(--pl-brand);
+}
+.white{
+    color: var(--pl-white);
+}

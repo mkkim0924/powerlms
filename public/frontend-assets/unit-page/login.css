@@ -1,0 +1,148 @@
+a{
+    text-decoration: none;
+}
+#footer-2 a{
+    color: #333;
+}
+.btn-rose{
+    color: var(--pl-white) !important;
+    background-color: var(--pl-brand);
+    border: 2px solid var(--pl-brand)!important;
+    font-weight: 500;
+}
+#footer-2 .btn-rose:hover{
+    border-color: #333!important;
+}
+.auth-wrapper{
+    background: url(/admin-assets/assets/images/big/auth-bg.jpg) no-repeat center center;
+position: relative;
+}
+.font-medium{
+    font-family: var(--bs-font-sans-serif) ;
+}
+ .auth-box {
+    background: var(--pl-white);
+    padding: 20px;
+    box-shadow: 1px 0 20px rgb(0 0 0 / 8%);
+    max-width: 400px;
+    width: 90%;
+    margin: 10% 0;
+}
+.auth-wrapper .auth-box .logo {
+    text-align: center;
+}
+.login-title{
+    font-family: var(--bs-font-sans-serif);
+    font-weight: 400;
+}
+.btn-facebook {
+    color: var(--pl-white);
+    background-color: #3b5998;
+    border-radius: 2px;
+    font-weight: 500;
+}
+.btn-facebook span,.btn-google span{
+    float: left;
+}
+.btn-facebook:hover,.btn-google:hover{
+    color: var(--pl-white);
+}
+.btn-google{
+    background-color: #DE4B39   ;
+    color: var(--pl-white);
+    font-weight: 500;
+    border-radius: 2px;
+}
+.form-control:focus{
+    box-shadow: none;
+    border-color: rgba(0, 0, 0, .25);
+}
+.input-group-text {
+    display: flex;
+    align-items: center;
+    padding: 0.8235rem  0.75rem;
+    font-size: .9375rem;
+    line-height: 1.5;
+    color: #4f5467;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #f6f8f9;
+    border: 1px solid #e9ecef;
+    border-radius: 0px;
+}
+.form-control{
+    border-radius: 0rem;
+    font-size: 1rem;
+}
+.custom-control {
+    position: relative;
+    display: block;
+    min-height: 1.40625rem;
+    padding-left: 1.5rem;
+    font-weight: 500;
+
+}
+.text-dark{
+    color: #283034!important;
+}
+.btn:not(:disabled):not(.disabled), summary {
+    cursor: pointer;
+}
+.bg-gradient-primary, .create-btn {
+    background: linear-gradient(126.81deg, #227AFF 16.77%, #273044 122.24%), #EB4026;
+}
+.grey-text{
+    color: #999;
+    font-weight: 500;
+}
+.login-text-small{
+    font-size: 14px;
+    font-weight: 500;
+}
+.forgot-pass-text{
+    font-size: 15px;
+}
+.btn-group-lg>.btn, .btn-lg{
+    border-radius: 2px;
+}
+.togglePassword{
+    position: absolute;
+    top: 14px;
+    right: 20px;
+    cursor:pointer;
+    z-index:10;
+}
+html[dir="rtl"] .togglePassword{
+    position: absolute;
+    top: 14px;
+left: 12px;
+    right: auto;
+    cursor:pointer;
+    z-index:10;
+}
+ .show-more-line {
+    position: relative;
+    text-align: center;
+}
+.show-more-line span {
+    padding: 0 8px;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+.show-more-line:after {
+    content: "";
+    border-bottom: 1px solid #c1c1c1;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 0;
+}
+.admin-btn{
+    padding: 10px 0px;
+}
+.admin-btn:hover{
+   color: #fff ;
+}

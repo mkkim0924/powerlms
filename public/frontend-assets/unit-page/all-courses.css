@@ -1,0 +1,51 @@
+.fw-400{
+    font-weight: 400;
+}
+.page-hero-section label{
+    color: var(--pl-white);
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+.course-tab .form-control{
+    border-radius: 0px;
+    font-size: .8rem;
+    line-height: 2;
+}
+.course-tab .form-control:focus{
+    box-shadow: none;
+}
+#sorting.form-select:focus{
+    box-shadow: none;
+}
+#sorting.form-select{
+    border-radius: 0px;
+}
+ .btn-outline-secondary {
+     color: #a6a6a6;
+     border-color: #6c757d;
+ }
+
+@media screen and (max-width: 767px){
+    .page-hero-section label{
+        font-size: 1rem;
+    }
+    .btn-grup{
+        display: flex;
+        justify-content: center;
+    }
+    .m-order-one h5{
+        font-size: 1rem;
+    }
+ .m-order-one{
+    order: 1;
+     align-self: center;
+}
+ .m-order-two{
+     order: 2;
+ }
+ .m-order-three{
+     order: 3;
+     margin-top:1rem;
+ }
+
+}

@@ -1,0 +1,237 @@
+/*Select2 CSS*/
+.select2-container {
+    width: 100% !important;
+}
+
+.select2-dropdown {
+    z-index: 44 !important;
+}
+
+.text-grey {
+    color: #999;
+}
+
+/*css for notification page*/
+.bell-icon {
+    background-color: #353556;
+    padding: 15px;
+    border-radius: 100%;
+    color: grey;
+    font-size: 23px;
+}
+
+.notification-card a:hover i {
+
+    color: white;
+}
+
+.notification-card a {
+    color: grey;
+}
+
+.notification-card a:hover p {
+    color: grey;
+}
+
+.bg-lightgrey {
+    background-color: lightgrey;
+}
+
+.btn-outline-warning {
+    background-color: #f5f5dc36;
+}
+
+.card-header .btn-outline-warning {
+    background-color: #fff !important;
+}
+
+.card-header .btn-outline-warning:hover {
+    background-color: #ffaf30 !important;
+}
+.card-header .btn-warning:active {
+    /*background-color: #ffaf30 !important;*/
+    color: #fff !important;
+}
+
+.btn-outline-success {
+    background-color: #f0f8ff;
+}
+
+.select2-selection {
+    -webkit-box-shadow: 0;
+    box-shadow: 0;
+    background-color: #fff;
+    border: 0;
+    border-radius: 0;
+    font-size: 14px;
+    outline: 0;
+    min-height: 14px;
+    text-align: left;
+    padding: 0px;
+}
+
+.select2-container .select2-selection--single {
+    height: 30px;
+}
+
+.select2-selection__arrow {
+    margin: 10px;
+}
+
+.select2-selection__rendered {
+    margin: 8px 10px;
+}
+
+.card-body.collapse {
+    border: #333 solid 1px;
+    background-color: #e3ebf0;
+}
+
+.note-btn-group>.btn-light {
+    background-color: transparent;
+    border: none;
+}
+
+.note-btn-group>.btn-light.active {
+    color: #fff !important;
+}
+
+.first-level .sidebar-item .sidebar-link {
+    line-height: 12px !important;
+    border-bottom: #90EE90 dashed 1px;
+}
+
+.bg-lightpink {
+    background-color: #ff1f59b3;
+}
+
+.px-8 {
+    padding-right: .8rem;
+    padding-left: .8rem;
+}
+
+.border-20 {
+    border-radius: 20px;
+}
+
+.border-5 {
+    border-radius: 5px;
+}
+
+.recent-notification .icon {
+    height: 40px;
+    width: 40px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+}
+
+.recent-notification .icon i {
+    font-size: 20px;
+    line-height: 0px;
+}
+
+.scrollbar-container {
+    position: relative;
+    height: 100%;
+}
+
+.scrollbar-container i {
+    font-size: 20px;
+}
+
+.me-16 {
+    margin-right: 16px !important;
+}
+
+.bg-rose {
+    background-color: var(--pl-brand);
+}
+
+.bg-danger-lighten {
+    background: rgba(241, 65, 108, .2);
+}
+
+.bg-warning-lighten {
+    background: rgba(255, 199, 0, .2);
+}
+
+.bg-success-lighten {
+    background: rgba(0, 163, 255, .2);
+}
+
+.text-blue {
+    color: #00a3ff !important;
+}
+
+.fs-13 {
+    font-size: 13px !important;
+}
+
+.text-muted {
+    color: #7184ad !important;
+}
+
+.notification-style::-webkit-scrollbar {
+    width: .5em;
+}
+
+.notification-style::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.notification-header {
+    background-color: transparent;
+    border-bottom: 2px solid #fafafa;
+}
+.card-body.notification-style{
+    padding: .5rem 1rem ;
+}
+.notification-header h6 {
+    color: #353556 !important;
+    font-weight: 600 !important;
+    font-size: 18px !important;
+}
+
+.notification-style::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 0px solid slategrey;
+    border-radius: 10px;
+}
+
+.admin-card i,
+.instructor-card i {
+    font-size: 30px;
+    padding: 0.9rem 0.8rem;
+    border-radius: 15px;
+}
+
+.admin-card,
+.instructor-card {
+    box-shadow: 0 0 20px rgb(0 51 99 / 10%);
+}
+
+.admin-card .card-body {
+    padding: 1rem;
+    height: 120px;
+}
+
+#earningyear {
+    border-radius: 5px;
+    border: 1px solid #c1c1c1;
+    padding: 4px;
+}
+#address.form-control,#experience.form-control,#bio.form-control,#message.form-control {
+    padding: .8rem .5rem;
+}
+/*.table-responsive{*/
+/*    overflow-x: auto;*/
+/*}*/
+#datatable_without_search_wrapper div:nth-child(2){
+    overflow-x: auto;
+}
+.note-editor.note-frame.card, .note-editor.note-frame.card .note-toolbar.card-header{
+    border-radius: 0;
+}

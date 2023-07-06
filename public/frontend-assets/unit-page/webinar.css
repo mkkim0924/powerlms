@@ -1,0 +1,238 @@
+/*general css*/
+.btn-yellow{
+    background: #FFCE04;
+    border-radius: 4px;
+    color: #383838;
+
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    border: none;
+    box-shadow: none;
+}
+.secondary-header{
+    background: #E3F3FB;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1030;
+    display: none;
+}
+.secondary-header a{
+    color: #383838;
+}
+.secondary-header a.active{
+    color: #3785D7;
+    border-bottom: 3px solid #3785D7;
+}
+.text-truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width:400px;
+
+}
+.ncp-desktop-s1 .breadcrumbs p, .ncp-desktop-s1 .breadcrumbs p a{
+    text-transform: capitalize;
+    color: rgba(56, 56, 56, 0.5);
+    font-size: 16px;
+    line-height: 24px;
+
+}
+ .webinar-text {
+    text-transform: capitalize;
+    color: #FFA828;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 500;
+
+}
+h2.section-heading{
+    font-size: 36px;
+    line-height: 48px;
+
+}
+.semi-bold{
+font-weight: 400;
+}
+.medium-weight{
+font-weight: 500;
+}
+body{
+    font-size: 16px;
+    /*overflow: visible;*/
+}
+
+/*course section 1*/
+h3.h3-sm{
+    font-size: 2rem;
+}
+.ncp-desktop-s1 .trainer-img-course{
+    width: auto;
+    height: 38px;
+}
+.ncp-desktop-s1{
+    font-size: 18px;
+}
+.webinar-video .card{
+    border: 1px solid #DADADA;
+    border-radius: 0px!important;
+    box-shadow: 8px 12px 10px rgba(0, 0, 0, 0.1);
+}
+.webinar-video .webinar-details h6 {
+    font-size: 14px;
+}
+.webinar-details p{
+    font-size: .8rem;
+}
+.webinar-video .webinar-details .btn-live-webinar{
+    list-style-type: none;
+    color: #0a58ca;
+}
+.btn-red-live{
+  /*background-color: #FFA828;*/
+    border-color: #000;
+}
+.webinar-video .webinar-details .btn-live-webinar:before {
+    content: "\2022";
+    color: var(--pl-white);
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 5px;
+}
+.webinar-video .webinar-meta {
+    border-right: 1px solid #c1c1c1;
+}
+.recommended-courses .owl-carousel .item {
+    width: 257px;
+}
+/*.recommended-courses .owl-carousel.owl-theme .owl-nav [class*="owl-"] {*/
+/*    background: transparent;*/
+/*    margin: 0 10px;*/
+/*    padding: 0;*/
+
+/*}*/
+.bg-05{
+    /*filter: grayscale(.9);*/
+    background-image:url(/frontend-assets/images/unit-page/bg-051.png) ;
+}
+.bg-051{
+    background-image:url(/frontend-assets/images/unit-page/bg-077.png) ;
+    background-position: center;
+    background-size: cover;
+}
+.webinar-desktop-5 .owl-carousel .owl-item{
+    width: calc(14rem + 5vw) !important;
+}
+.sbox-5{
+    padding: 23px;
+}
+.grey-color span{
+    font-weight: 400;
+}
+.fa-user{
+    color:  var(--pl-brand)!important;
+    background-color: var(--pl-white);
+    padding: 3px;
+    border-radius: 50%;
+    font-size: 12px;
+}
+.fa-calendar-alt{
+    color:#ffa00a!important;
+    background-color: var(--pl-white);
+    padding: 4px;
+    border-radius: 50%;
+    font-size: 12px;
+    line-height: 11px;
+}
+.recommended-courses .owl-theme .owl-nav{
+    margin-top: 25px;
+}
+.webinar-desktop-5 .owl-theme .owl-nav.disabled+.owl-dots{
+    margin-top: 0px;
+}
+/*.fa-calendar-alt{*/
+/*    color: #FFA828!important;*/
+/*;*/
+/*}*/
+/*course section 2*/
+
+/*course section 10 owl navigation*/
+#left-button a.btn i,
+#right-button a.btn i{
+    font-size: 24px!important;
+}
+/*course section 10 owl navigation end*/
+.trainer-one{
+    border-right: 1px solid #C4C4C4;
+}
+ .trainer-one img{
+     border-radius: 50%;
+     border: 1px solid #c1c1c1;
+ }
+
+.svg-img {
+    filter: grayscale(1);
+    width: 28px;
+}
+.webinar-video{
+    top: 11em;
+}
+.webinar-video-container {
+    background: #000;
+}
+.sbox-5-txt h5{
+    height: 72px;
+    overflow: hidden;
+}
+@media screen and (max-width: 767px){
+    .recommended-courses .owl-carousel .item{
+        width: 350px;
+    }
+    .webinar-desktop-5 .owl-carousel .owl-item{
+        width: calc( 15rem + 5vw) !important;
+    }
+    .webinar-details .col-4,.webinar-details .col-8{
+        flex-direction: column;
+    }
+    .webinar-video .webinar-details h6,.webinar-details p{
+        text-align: center;
+    }
+    .svg-img{
+        width: 24px;
+    }
+    .col-lg-7{
+        display: flex;
+        flex-direction: column;
+        order: 2;
+    }
+    .webinar-video{
+        order: 1;
+        position: relative;
+        top: 0em;
+    }
+    h3.h3-sm{
+        font-size: 1.5rem;
+    }
+    .semi-bold {
+        font-size: 1rem;
+    }
+    .fw-9{
+        font-size: .9rem;
+    }
+}
+@media screen and (max-width: 991px){
+    .recommended-courses .owl-carousel .item{
+        width: 305px;
+    }
+    .webinar-desktop-5 .owl-carousel .owl-item{
+        width: calc( 15rem + 5vw) !important;
+    }
+    .col-lg-7{
+        display: flex;
+        flex-direction: column;
+        order: 2;
+    }
+    .webinar-video{
+        order: 1;
+        position: relative;
+        top: 0em;
+    }
+}

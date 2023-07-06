@@ -1,0 +1,215 @@
+/*global css*/
+*{
+    font-family: var(--bs-font-sans-serif);
+}
+a{
+    text-decoration: none;
+}
+#footer-2 a{
+    color: #333;
+}
+.form-control:focus{
+    box-shadow: none;
+}
+.btn:focus{
+    box-shadow: none;
+}
+section.user-dashboard-area {
+    padding: 40px 0;
+}
+.box-shadow-5 {
+    box-shadow: 0px 1px 5px #0000001c !important;
+}
+/*global css*/
+
+.user-dashboard-sidebar {
+    background-color: var(--pl-white);
+    padding: 10px 20px;
+    border-radius: 10px;
+    height: 100%;
+}
+.user-dashboard-sidebar .user-box {
+    text-align: center;
+    padding: 10px;
+}
+.user-dashboard-sidebar .user-box .name {
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+/*.user-dashboard-sidebar .user-box img {*/
+/*    height: 118px;*/
+/*    width: 118px;*/
+/*    border-radius: 50%;*/
+/*    margin-bottom: 15px;*/
+/*}*/
+/*.user-dashboard-sidebar .user-dashboard-menu ul {*/
+/*    padding: 0;*/
+/*    margin: 0;*/
+/*    list-style: none;*/
+/*}*/
+.user-dashboard-sidebar .user-dashboard-menu .nav button {
+    display: block;
+    padding: 8px 15px;
+    border-radius: 8px;
+    font-weight: 600;
+    border: 1px solid #cacaca;
+    color: #122222;
+}
+.user-dashboard-menu .nav-pills .nav-link.active,.user-dashboard-menu .nav-pills .show>.nav-link{
+    background: #F5F9FA;
+    color: #000;
+    font-weight: 600;
+    border: 1px solid #cacaca00 !important;
+    box-shadow: 0px 2px 3px -2px #a7a7a7;
+}
+.user-dashboard-sidebar .user-dashboard-menu .nav .active button, .user-dashboard-sidebar .user-dashboard-menu .nav button:hover, .user-dashboard-sidebar .user-dashboard-menu .nav button:focus {
+    background: #F5F9FA;
+    color: #000;
+    font-weight: 600;
+    border: 1px solid #cacaca00 !important;
+    box-shadow: 0px 2px 3px -2px #a7a7a7;
+}
+.radius-10 {
+    border-radius: 10px !important;
+}
+.fw-600 {
+    font-weight: 600 !important;
+}
+fieldset, label {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 5px;
+    color: #b2b4b9;
+}
+.btn.red {
+    color: var(--pl-white);
+    background-color: #ec5252;
+    border-color: #ec5252;
+    padding: 11px 12px;
+    font-size: 15px;
+    border-radius: 2px;
+    line-height: 1.35135;
+    font-weight: 600;
+}
+.btn.red:hover, .btn.red:focus {
+    background-color: #c33333 !important;
+    border-color: #c3333300 !important;
+    color: var(--pl-white);
+}
+.radius-8 {
+    border-radius: 8px !important;
+}
+.togglePassword{
+    position: absolute;
+    top: 12px;
+    right: 8px;
+    cursor:pointer;
+    z-index:10;
+}
+
+
+/*avtar img css*/
+.container-img {
+    position: relative;
+    padding-top: 15px;
+}
+#left-section .avatar-upload {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+#left-section .avatar-upload .avatar-edit {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+#left-section .avatar-upload .avatar-edit input {
+    display: none;
+}
+#left-section .image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+#left-section .avatar-upload .avatar-edit input + label {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 0;
+    border-radius: 100%;
+    cursor: pointer;
+    font-weight: normal;
+    transition: all 0.2s ease-in-out;
+}
+#left-section label {
+    display: inline-block;
+}
+#left-section .avatar-upload .avatar-preview {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    border-radius: 100%;
+    border: 1px solid #012478;
+    /*box-shadow: 0px 2px 4px 0px rgb(0 0 0 / 10%);*/
+    background-color: #012478;
+}
+#left-section .avatar-upload .avatar-preview > div {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#left-section .overlay {
+    position: absolute;
+    top: 38px;
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    line-height: 180px;
+    color: #FFF;
+    text-align: center;
+    cursor: pointer;
+    left: 55px;
+}
+
+#left-section .avatar-upload .avatar-edit input + label:after {
+    content: "\f040";
+    font-family: 'FontAwesome';
+    color: #757575;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin: auto;
+    display: none;
+}
+#imagePreview span{
+    font-size: 95px;
+    font-weight: 700;
+    color: #9AC0EF;
+}
+#imagePreview{
+    position: relative;
+}
+#left-section .cam{
+    background-color:#F2F2F2    ;
+    padding: 10px;
+    border-radius: 50%;
+    border: 2px solid #FFFFFF;
+}
+#left-section .profile-pic{
+    font-family: var(--bs-font-sans-serif);
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #383838;
+}
+/*avtar img css*/

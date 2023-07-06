@@ -1,0 +1,187 @@
+#reviews-1 .review-1,
+#reviews-1 .owl-carousel.owl-drag .owl-item {
+    min-height: 100% !important;
+}
+
+#reviews-1 .owl-carousel .owl-stage {
+    display: flex;
+    align-items: stretch;
+}
+
+#reviews-1 .review-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+#reviews-1 .review-1-author {
+    margin-top: auto;
+}
+
+.sticky-course-card {
+    position: sticky;
+    top: 90px;
+}
+
+#page {
+    overflow: unset;
+}
+
+.wsmenucontainer {
+    overflow: unset;
+}
+
+.col-menu-container {
+    max-width: 600px !important;
+    width: 600px;
+    border: none;
+    border-color: transparent !important;
+    margin-left: -18% !important;
+
+}
+
+.col-menu-container:hover {
+    /*animation: fadeIn 100s ease-in both;*/
+    transition: all 400ms ease-in-out;
+    -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+
+}
+
+.col-menu {
+    max-width: 300px;
+    /*border: 1px solid #c1c1c1;*/
+    display: none;
+
+}
+
+.col-menu .dropdown-item {
+    position: relative;
+}
+
+.category-level-1,
+.category-courses-dropdown {
+    height: max-content;
+}
+
+.dropdown-item i.fa-angle-right {
+    position: absolute;
+    /*right: 0;*/
+    left: 270px;
+    top: 12px;
+}
+
+.dropdown-item i.fa-angle-left {
+    position: absolute;
+    right: 270px;
+    top: 12px;
+}
+
+.col-menu ul {
+    list-style-type: none !important;
+    background-color: #fff;
+    border: solid 1px #eee;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.dropdown-item {
+    color: #012478;
+    cursor: pointer;
+    background-color: #fff !important;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+    color: #3785D7;
+    cursor: pointer;
+    -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #383838 !important;
+}
+
+.col-menu ul.sub-menu>li {
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    border-bottom: 1px dashed #c0c0c0;
+    padding: 0px;
+}
+
+.col-menu ul.sub-menu>li>a {
+    padding: 11px 0;
+}
+
+.col-menu ul.sub-menu>li a {
+    position: relative;
+    background-image: none;
+    border-right: 0 none;
+    text-align: left !important;
+    display: block;
+    padding: 9px;
+    text-transform: none;
+    color: #888;
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 400;
+    letter-spacing: 0;
+    border-right: 0px solid;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-transition: all 400ms ease-in-out;
+    -moz-transition: all 400ms ease-in-out;
+    -o-transition: all 400ms ease-in-out;
+    -ms-transition: all 400ms ease-in-out;
+    transition: all 400ms ease-in-out;
+}
+
+.course-dropdown {
+    position: absolute;
+    right: 0;
+}
+
+.alert .close {
+    display: contents;
+    font-size: 20px;
+}
+
+@media (max-width:768px) {
+    .review-1 {
+        padding: 10px 15px;
+    }
+
+    .wide-40 {
+        padding-top: 20px;
+    }
+}
+
+@media print {
+    .noPrint {
+        display: none;
+    }
+}
+
+
+.cs-content #intaccordion [data-bs-toggle="collapse"].collapsed:after,
+.cs-content #intaccordion [data-bs-toggle="collapse"]:after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f106";
+    position: absolute;
+    font-size: 1.05rem;
+    top: 17px;
+    left: 20px;
+}
+
+.cs-content #intaccordion [data-bs-toggle="collapse"].collapsed:after {
+    content: "\f107";
+}
+
+#intaccordion .card-header h5 {
+    line-height: 1;
+    letter-spacing: -0.5px;
+    margin-bottom: 0;
+}

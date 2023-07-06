@@ -1,0 +1,91 @@
+*{
+    font-family: var(--bs-font-sans-serif);
+}
+.btn:focus{
+    box-shadow: none;
+}
+.btn-rose{
+    color: var(--pl-white) !important;
+    background-color: var(--pl-brand);
+    border: 2px solid var(--pl-brand)!important;
+    font-weight: 500;
+}
+.btn-outline-rose{
+    border-radius: 4px;
+    font-family: var(--bs-font-sans-serif);
+    background-color: transparent;
+    border: 2px solid #e3e3e3 !important;
+    font-weight: 500;
+    color: var(--pl-white);
+}
+.btn-outline-rose:hover{
+    color: var(--pl-white) !important;
+    background-color: var(--pl-brand);
+    border: 2px solid var(--pl-brand)!important;
+    transition: all 450ms ease-in-out;
+}
+
+#footer-2 .btn-rose:hover{
+    border-color: #333!important;
+}
+
+ .student-achievement {
+    background: url(/frontend-assets/images/unit-page/LV_confetti_GIF.gif) no-repeat;
+     /*background: linear-gradient(126.81deg, #227AFF 16.77%, #273044 122.24%), #EB4026;*/
+    /*background-size: contain;*/
+    background-position: center center;
+     background-color: rgba(39,48,68,1);
+     /*background-image: url(/frontend-assets/files/images/bg-05.jpg);*/
+     border-radius: 5px;
+}
+ .student-image {
+     border: 2px solid #c1c1c1;
+     border-radius: 100%;
+ }
+.section-heading h2{
+    font-size: 40px;
+    font-weight: 600;
+    font-family: var(--bs-font-sans-serif);
+}
+ .section-heading p{
+    font-size: 18px;
+    font-weight: 500;
+     line-height: 28px;
+}
+.instructor-txt img{
+    border-radius: 5px;
+}
+.recommended-courses h4{
+    font-weight: 600;
+    color: #283034;
+    font-family: var(--bs-font-sans-serif);
+}
+.instructor-txt p{
+    text-align: justify ;
+}
+/*css for review modal*/
+#formInputDiv .form-control:focus{
+    box-shadow: none;
+}
+#exampleModalone .btn-close:focus{
+    box-shadow: none;
+}
+/*.review-btn{*/
+/*    width: 31.5%;*/
+/*}*/
+@media only screen and (max-width:768px)  {
+    .student-achievement{
+     border-radius: 0px;
+        margin-bottom: 15px;
+    }
+    .m-order{
+    order: 2;
+}
+    .m-order-img{
+        order: 1;
+    }
+    .instructor-txt p{
+        margin-top: 18px;
+        text-align: justify;
+    }
+}

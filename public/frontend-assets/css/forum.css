@@ -1,0 +1,15 @@
+.bg-light-blue{
+    background-color: #E8F1FF;
+}
+.text-brand{
+    color: #227AFF;
+}
+.f-14{
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 770px ) {
+    #category-header {
+        display: none;
+    }
+}

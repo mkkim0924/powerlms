@@ -1,0 +1,7 @@
+.gitignore
+!default-marketing.png
+!default-palette.png
+!default-network.png
+!default-programming.png
+!default-software-dev.png
+!.gitignore
